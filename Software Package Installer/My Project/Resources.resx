@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="05xLigiuyW7Og4jxUDKd60e-1..v1605304191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\05xLigiuyW7Og4jxUDKd60e-1..v1605304191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="05xLigiuyW7Og4jxUDKd60e-1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\05xLigiuyW7Og4jxUDKd60e-1..v1605304191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="05xLigiuyW7Og4jxUDKd60e-1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\05xLigiuyW7Og4jxUDKd60e-1..v1605304191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0x0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\0x0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1026px-Vivaldi_web_browser_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\1026px-Vivaldi_web_browser_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1026px-Vivaldi_web_browser_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\1026px-Vivaldi_web_browser_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Google_Drive_icon_(2020).svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\1200px-Google_Drive_icon_(2020).svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Google_Drive_icon_(2020)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\1200px-Google_Drive_icon_(2020).svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Greenshot_logo.svg_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\1200px-Greenshot_logo.svg_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200x600wa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\1200x600wa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1523349375_hwmonitor_story" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\1523349375_hwmonitor_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1523349375_hwmonitor_story1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\1523349375_hwmonitor_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1523349375_hwmonitor_story2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\1523349375_hwmonitor_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_2001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_2002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\15886c351a77f6dc65cc503c8abb62d4e59e84d091c410cf028cacc5d757aff6_200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1635144322_nox-app-player_story" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\1635144322_nox-app-player_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1635144322_nox-app-player_story1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\1635144322_nox-app-player_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1635144322_nox-app-player_story2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\1635144322_nox-app-player_story.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\217fdbc48ae682e8519f8e95ba735c4aad4ce2345a7267669b9f792004f0a168_200-_1_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31X9eeywR3L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\31X9eeywR3L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31X9eeywR3L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\31X9eeywR3L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="438px-ITunes_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\438px-ITunes_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="438px-ITunes_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\438px-ITunes_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="438px-ITunes_logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\438px-ITunes_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="602615a5f279d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\602615a5f279d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6171439-Hlns_big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\6171439-Hlns_big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6171439-Hlns_big1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\6171439-Hlns_big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7ziplogo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\7ziplogo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7ziplogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\7ziplogo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7ziplogo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\7ziplogo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="800px-Python-logo-notext.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\800px-Python-logo-notext.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="800px-Python-logo-notext1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\800px-Python-logo-notext.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="800px-Python-logo-notext2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\800px-Python-logo-notext.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="919853" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\919853.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adobe_Acrobat_DC_logo_2020.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Adobe_Acrobat_DC_logo_2020.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adobe_Acrobat_DC_logo_20201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Adobe_Acrobat_DC_logo_2020.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adobe_Acrobat_DC_logo_20202" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Adobe_Acrobat_DC_logo_2020.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="algobuild-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\algobuild-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="algobuild-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\algobuild-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="algobuild-logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\algobuild-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnyDesk-LhbyoY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\AnyDesk-LhbyoY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnyDesk-LhbyoY1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\AnyDesk-LhbyoY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="application-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\application-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apps.28465.13510798887699839.f53826c5-f1b2-4116-8752-c2b96364d5da" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\apps.28465.13510798887699839.f53826c5-f1b2-4116-8752-c2b96364d5da.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apps.28465.135107988876998391" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\apps.28465.13510798887699839.f53826c5-f1b2-4116-8752-c2b96364d5da.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apps.28465.135107988876998392" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\apps.28465.13510798887699839.f53826c5-f1b2-4116-8752-c2b96364d5da.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aprt6-wi1tf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\aprt6-wi1tf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asc_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\asc_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asc_961" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\asc_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asc_962" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\asc_96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Audacity_Logo_nofilter.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Audacity_Logo_nofilter.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Audacity_Logo_nofilter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Audacity_Logo_nofilter.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Audacity_Logo_nofilter2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Audacity_Logo_nofilter.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avast-logo-social" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\avast-logo-social.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AVG-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\AVG-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Chrome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrome1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Chrome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrome2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Chrome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chromium_Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Chromium_Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chromium_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Chromium_Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\D.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e1542990140644" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e1542990140644.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e15429901406441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e1542990140644.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e15429901406442" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Darksiders-2-d80b722da9edc37805def78a512b90c5772434a6-e1542990140644.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaVinci_Resolve_17_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\DaVinci_Resolve_17_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaVinci_Resolve_17_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\DaVinci_Resolve_17_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DaVinci_Resolve_17_logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\DaVinci_Resolve_17_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Db" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Db.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Db1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Db.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deskreen-logo-icon_512x512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\deskreen-logo-icon_512x512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dev-C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Dev-C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dev-C1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Dev-C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dev-C2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Dev-C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="devblog-brand-visualstudiowin2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\devblog-brand-visualstudiowin2019.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Discord-Canary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Discord-Canary.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Discord-Canary1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Discord-Canary.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DmBhQTdG_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\DmBhQTdG_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DmBhQTdG_400x4001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\DmBhQTdG_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver_Booster_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Driver_Booster_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver_Booster_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Driver_Booster_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Driver_Booster_Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Driver_Booster_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="droidcam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\droidcam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="droidcam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\droidcam.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\Epic+Games+Node_xlarge_whitetext_blackback_epiclogo_504x512_1529964470588-503x512-ac795e81c54b27aaa2e196456dd307bfe4ca3ca4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etcher-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\Etcher-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_icon_325x325" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\fb_icon_325x325.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_icon_325x3251" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\fb_icon_325x325.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb_icon_325x3252" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\fb_icon_325x325.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filezilla_1-1-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\filezilla_1-1-24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filezilla_1-1-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\filezilla_1-1-24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filezilla_1-1-242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\filezilla_1-1-24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GIMP-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\GIMP-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GIMP-Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\GIMP-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GIMP-Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\GIMP-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\ic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\ic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\ic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_96_199" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\icon_96_199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_96_1991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\icon_96_199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-10 123007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\Immagine 2022-06-10 123007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 203453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034531" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 20345310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034532" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034533" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034534" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034535" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034536" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034537" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034538" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-13 2034539" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-13 203453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-27 131928" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-27 131928.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-27 132023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-27 132023.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-27 132056" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-27 132056.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-27 132140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-27 132140.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-06-27 132203" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Immagine 2022-06-27 132203.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Immagine 2022-08-25 135250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\Immagine 2022-08-25 135250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\index.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\index.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iobit-malware-fighter_102660" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\iobit-malware-fighter_102660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iobit-malware-fighter_1026601" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\iobit-malware-fighter_102660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iobit-malware-fighter_1026602" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\iobit-malware-fighter_102660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IObit-Software-Updater_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\IObit-Software-Updater_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IObit-Software-Updater_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\IObit-Software-Updater_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IObit-Software-Updater_logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\IObit-Software-Updater_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IObit-Software-Updater_logo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\IObit-Software-Updater_logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="itop-vpn-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\itop-vpn-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="itop-vpn-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\itop-vpn-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de4.1728044415229209114633" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de4.1728044415229209114633.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de4.1728044415229209114633.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\kisspng-google-chrome-canary-web-browser-clip-art-logo-5ac5edcf711de4.1728044415229209114633.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-beta.ef84761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\logo-beta.ef84761.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-firefox-browser.fbc7ffbb50fd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\logo-firefox-browser.fbc7ffbb50fd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-firefox-browser1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\logo-firefox-browser.fbc7ffbb50fd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-firefox-browser2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\logo-firefox-browser.fbc7ffbb50fd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\m-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft-Edge-Dev-nuova-icona-browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\Microsoft-Edge-Dev-nuova-icona-browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft-Edge-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Microsoft-Edge-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft-Edge-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Microsoft-Edge-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nodejs-grande" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\nodejs-grande.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Notepad++" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Notepad++.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notion-logo-no-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\notion-logo-no-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notion-logo-no-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\notion-logo-no-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notion-logo-no-background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\notion-logo-no-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Obs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OIP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\OIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open office" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 3.00\Open office.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opengraph-blog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\opengraph-blog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="opengraph-blog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\opengraph-blog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Opera_browser_logo_2013_vector.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Opera_browser_logo_2013_vector.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Opera_browser_logo_2013_vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Opera_browser_logo_2013_vector.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-gimp-logo-large" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\png-transparent-gimp-logo-large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-gimp-logo-large1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\png-transparent-gimp-logo-large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-gimp-logo-large2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\png-transparent-gimp-logo-large.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-teamviewer-remote-desktop-software-remote-support-computer-icons-android-computer-sign-android-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\png-transparent-teamviewer-remote-desktop-software-remote-support-computer-icons-android-computer-sign-android-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rufus-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\rufus-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rufus-1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\rufus-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rufus-1282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\rufus-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Soft Usb passwords\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Soft Launcher\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Soft Optimizer 3.00\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Soft Optimizer 3.00\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Soft Usb passwords\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Senza titolo9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition\Senza titolo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sky-go-app-1024-px-rgb@2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\sky-go-app-1024-px-rgb@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sky-go-app-1024-px-rgb@2x1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\sky-go-app-1024-px-rgb@2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smart-defrag-iconn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\smart-defrag-iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smart-defrag-iconn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\smart-defrag-iconn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spi b  d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Spi b  d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spi B 1188" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Spi B 1188.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spi Dg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Spi Dg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spi dr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Spi dr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spi L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\Spi L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steam_icon_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steam_icon_logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steam_icon_logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\Steam_icon_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\TO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.02\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.00\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VeraCrypt_Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\VeraCrypt_Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vimlogo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer Multiple Edition 1.01\Vimlogo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\virtualbox-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="virtualbox-logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\virtualbox-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vlc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\vlc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vlc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer 2.01\vlc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vmware-workstation-player" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\vmware-workstation-player.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vmware-workstation-player1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>C:\Users\Acer\OneDrive\Documenti\Soft-Corporation\Software Package Installer\vmware-workstation-player.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

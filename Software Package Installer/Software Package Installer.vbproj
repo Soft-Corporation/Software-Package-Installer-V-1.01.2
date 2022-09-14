@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C082CB90-0F13-4A98-A78A-FA5B237622A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Software_Package_Installer.My.MyApplication</StartupObject>
+    <RootNamespace>Software_Package_Installer</RootNamespace>
+    <AssemblyName>Software Package Installer ME</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Software Package Installer ME.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Software Package Installer ME.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Senza-titolo %286%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="7zip.Designer.vb">
+      <DependentUpon>7zip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7zip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abobe Acrobat Reader.Designer.vb">
+      <DependentUpon>Abobe Acrobat Reader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Abobe Acrobat Reader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Advanced Systemcare.Designer.vb">
+      <DependentUpon>Advanced Systemcare.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Advanced Systemcare.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgoBuild.Designer.vb">
+      <DependentUpon>AlgoBuild.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AlgoBuild.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anydesk.Designer.vb">
+      <DependentUpon>Anydesk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Anydesk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Audacity.Designer.vb">
+      <DependentUpon>Audacity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Audacity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avast.Designer.vb">
+      <DependentUpon>Avast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Avast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Avg.Designer.vb">
+      <DependentUpon>Avg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Avg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BAlena Etcher.Designer.vb">
+      <DependentUpon>BAlena Etcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BAlena Etcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chrome Canary.Designer.vb">
+      <DependentUpon>Chrome Canary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chrome Canary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deskreen.Designer.vb">
+      <DependentUpon>Deskreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deskreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dev C++.Designer.vb">
+      <DependentUpon>Dev C++.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dev C++.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Docker.Designer.vb">
+      <DependentUpon>Docker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Docker.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Droidcam.Designer.vb">
+      <DependentUpon>Droidcam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Droidcam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edge Beta.Designer.vb">
+      <DependentUpon>Edge Beta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edge Beta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edge Dev.Designer.vb">
+      <DependentUpon>Edge Dev.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edge Dev.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File Converter.Designer.vb">
+      <DependentUpon>File Converter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="File Converter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filezilla Ser.Designer.vb">
+      <DependentUpon>Filezilla Ser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filezilla Ser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filezilla Server.Designer.vb">
+      <DependentUpon>Filezilla Server.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filezilla Server.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Greenshot.Designer.vb">
+      <DependentUpon>Greenshot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Greenshot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iobit Protected Folder.Designer.vb">
+      <DependentUpon>Iobit Protected Folder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Iobit Protected Folder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Itop Vpn.Designer.vb">
+      <DependentUpon>Itop Vpn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Itop Vpn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Itunes.Designer.vb">
+      <DependentUpon>Itunes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Itunes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAlware Bytes.Designer.vb">
+      <DependentUpon>MAlware Bytes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAlware Bytes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mega.Designer.vb">
+      <DependentUpon>Mega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Node JS.Designer.vb">
+      <DependentUpon>Node JS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Node JS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notion.Designer.vb">
+      <DependentUpon>Notion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discord Canary.Designer.vb">
+      <DependentUpon>Discord Canary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Discord Canary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ccleaner.Designer.vb">
+      <DependentUpon>Ccleaner.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ccleaner.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chrome.Designer.vb">
+      <DependentUpon>Chrome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chrome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configurazione.Designer.vb">
+      <DependentUpon>Configurazione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configurazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crystaldiskinfo.Designer.vb">
+      <DependentUpon>Crystaldiskinfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crystaldiskinfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Crystaldiskmark.Designer.vb">
+      <DependentUpon>Crystaldiskmark.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Crystaldiskmark.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Davinci Resolve.Designer.vb">
+      <DependentUpon>Davinci Resolve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Davinci Resolve.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discord.Designer.vb">
+      <DependentUpon>Discord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Discord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver Easy.Designer.vb">
+      <DependentUpon>Driver Easy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Driver Easy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edge.Designer.vb">
+      <DependentUpon>Edge.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Epic Games Launcher.Designer.vb">
+      <DependentUpon>Epic Games Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Epic Games Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firefox.Designer.vb">
+      <DependentUpon>Firefox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Firefox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flowgorithm.Designer.vb">
+      <DependentUpon>Flowgorithm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Flowgorithm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gimp.Designer.vb">
+      <DependentUpon>Gimp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gimp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Google Drive.Designer.vb">
+      <DependentUpon>Google Drive.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Google Drive.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hwmonitor.Designer.vb">
+      <DependentUpon>Hwmonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Hwmonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impostazioni.Designer.vb">
+      <DependentUpon>Impostazioni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impostazioni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informazioni di Software Package Installer.Designer.vb">
+      <DependentUpon>Informazioni di Software Package Installer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Informazioni di Software Package Installer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Install Creator.Designer.vb">
+      <DependentUpon>Install Creator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Install Creator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iobit Driver Booster.Designer.vb">
+      <DependentUpon>Iobit Driver Booster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Iobit Driver Booster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iobit Malware Fighter.Designer.vb">
+      <DependentUpon>Iobit Malware Fighter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Iobit Malware Fighter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IObit Software Updater.Designer.vb">
+      <DependentUpon>IObit Software Updater.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IObit Software Updater.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IObit Unistaller.Designer.vb">
+      <DependentUpon>IObit Unistaller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IObit Unistaller.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libreoffice.Designer.vb">
+      <DependentUpon>Libreoffice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Libreoffice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logitech G Hub.Designer.vb">
+      <DependentUpon>Logitech G Hub.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Logitech G Hub.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notepad++.Designer.vb">
+      <DependentUpon>Notepad++.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notepad++.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nox Player.Designer.vb">
+      <DependentUpon>Nox Player.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nox Player.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nvidia Geforce Experience.Designer.vb">
+      <DependentUpon>Nvidia Geforce Experience.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Nvidia Geforce Experience.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obs.Designer.vb">
+      <DependentUpon>Obs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Obs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlyOffice.Designer.vb">
+      <DependentUpon>OnlyOffice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OnlyOffice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenOffice.Designer.vb">
+      <DependentUpon>OpenOffice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OpenOffice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Openshot.Designer.vb">
+      <DependentUpon>Openshot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Openshot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opera Gx.Designer.vb">
+      <DependentUpon>Opera Gx.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opera Gx.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opera.Designer.vb">
+      <DependentUpon>Opera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperaCB.Designer.vb">
+      <DependentUpon>OperaCB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OperaCB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ps Remote Play.Designer.vb">
+      <DependentUpon>Ps Remote Play.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ps Remote Play.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Python.Designer.vb">
+      <DependentUpon>Python.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Python.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rufus.Designer.vb">
+      <DependentUpon>Rufus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rufus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shotcut.Designer.vb">
+      <DependentUpon>Shotcut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shotcut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sky Go.Designer.vb">
+      <DependentUpon>Sky Go.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sky Go.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Smart Defrag.Designer.vb">
+      <DependentUpon>Smart Defrag.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Smart Defrag.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Smart game Booster.Designer.vb">
+      <DependentUpon>Smart game Booster.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Smart game Booster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soft Launcher.Designer.vb">
+      <DependentUpon>Soft Launcher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Soft Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soft Optimizer.Designer.vb">
+      <DependentUpon>Soft Optimizer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Soft Optimizer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soft Usb Passwords.Designer.vb">
+      <DependentUpon>Soft Usb Passwords.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Soft Usb Passwords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Steam.Designer.vb">
+      <DependentUpon>Steam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Steam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teamviewer.Designer.vb">
+      <DependentUpon>Teamviewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teamviewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telegram.Designer.vb">
+      <DependentUpon>Telegram.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Telegram.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Texbbb.Designer.vb">
+      <DependentUpon>Texbbb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Texbbb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trading View.Designer.vb">
+      <DependentUpon>Trading View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trading View.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TunnelBear.Designer.vb">
+      <DependentUpon>TunnelBear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TunnelBear.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vera Crypt.Designer.vb">
+      <DependentUpon>Vera Crypt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vera Crypt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vim.Designer.vb">
+      <DependentUpon>Vim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Virtualbox.Designer.vb">
+      <DependentUpon>Virtualbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Virtualbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visual Studio.Designer.vb">
+      <DependentUpon>Visual Studio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visual Studio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vivaldi.Designer.vb">
+      <DependentUpon>Vivaldi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vivaldi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vlc.Designer.vb">
+      <DependentUpon>Vlc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vlc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vmware.Designer.vb">
+      <DependentUpon>Vmware.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vmware.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visual Studio Code.Designer.vb">
+      <DependentUpon>Visual Studio Code.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visual Studio Code.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Obs Streamlabs.Designer.vb">
+      <DependentUpon>Obs Streamlabs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Obs Streamlabs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="7zip.resx">
+      <DependentUpon>7zip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abobe Acrobat Reader.resx">
+      <DependentUpon>Abobe Acrobat Reader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Advanced Systemcare.resx">
+      <DependentUpon>Advanced Systemcare.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgoBuild.resx">
+      <DependentUpon>AlgoBuild.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Anydesk.resx">
+      <DependentUpon>Anydesk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Audacity.resx">
+      <DependentUpon>Audacity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avast.resx">
+      <DependentUpon>Avast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avg.resx">
+      <DependentUpon>Avg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BAlena Etcher.resx">
+      <DependentUpon>BAlena Etcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chrome Canary.resx">
+      <DependentUpon>Chrome Canary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deskreen.resx">
+      <DependentUpon>Deskreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dev C++.resx">
+      <DependentUpon>Dev C++.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Docker.resx">
+      <DependentUpon>Docker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Droidcam.resx">
+      <DependentUpon>Droidcam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edge Beta.resx">
+      <DependentUpon>Edge Beta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edge Dev.resx">
+      <DependentUpon>Edge Dev.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="File Converter.resx">
+      <DependentUpon>File Converter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filezilla Ser.resx">
+      <DependentUpon>Filezilla Ser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filezilla Server.resx">
+      <DependentUpon>Filezilla Server.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Greenshot.resx">
+      <DependentUpon>Greenshot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iobit Protected Folder.resx">
+      <DependentUpon>Iobit Protected Folder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Itop Vpn.resx">
+      <DependentUpon>Itop Vpn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Itunes.resx">
+      <DependentUpon>Itunes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAlware Bytes.resx">
+      <DependentUpon>MAlware Bytes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mega.resx">
+      <DependentUpon>Mega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Node JS.resx">
+      <DependentUpon>Node JS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notion.resx">
+      <DependentUpon>Notion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discord Canary.resx">
+      <DependentUpon>Discord Canary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ccleaner.resx">
+      <DependentUpon>Ccleaner.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chrome.resx">
+      <DependentUpon>Chrome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configurazione.resx">
+      <DependentUpon>Configurazione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystaldiskinfo.resx">
+      <DependentUpon>Crystaldiskinfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystaldiskmark.resx">
+      <DependentUpon>Crystaldiskmark.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Davinci Resolve.resx">
+      <DependentUpon>Davinci Resolve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discord.resx">
+      <DependentUpon>Discord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver Easy.resx">
+      <DependentUpon>Driver Easy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edge.resx">
+      <DependentUpon>Edge.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Epic Games Launcher.resx">
+      <DependentUpon>Epic Games Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firefox.resx">
+      <DependentUpon>Firefox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flowgorithm.resx">
+      <DependentUpon>Flowgorithm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gimp.resx">
+      <DependentUpon>Gimp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Google Drive.resx">
+      <DependentUpon>Google Drive.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hwmonitor.resx">
+      <DependentUpon>Hwmonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impostazioni.resx">
+      <DependentUpon>Impostazioni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informazioni di Software Package Installer.resx">
+      <DependentUpon>Informazioni di Software Package Installer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Install Creator.resx">
+      <DependentUpon>Install Creator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iobit Driver Booster.resx">
+      <DependentUpon>Iobit Driver Booster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iobit Malware Fighter.resx">
+      <DependentUpon>Iobit Malware Fighter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IObit Software Updater.resx">
+      <DependentUpon>IObit Software Updater.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IObit Unistaller.resx">
+      <DependentUpon>IObit Unistaller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libreoffice.resx">
+      <DependentUpon>Libreoffice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logitech G Hub.resx">
+      <DependentUpon>Logitech G Hub.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad++.resx">
+      <DependentUpon>Notepad++.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nox Player.resx">
+      <DependentUpon>Nox Player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nvidia Geforce Experience.resx">
+      <DependentUpon>Nvidia Geforce Experience.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obs.resx">
+      <DependentUpon>Obs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlyOffice.resx">
+      <DependentUpon>OnlyOffice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenOffice.resx">
+      <DependentUpon>OpenOffice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Openshot.resx">
+      <DependentUpon>Openshot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opera Gx.resx">
+      <DependentUpon>Opera Gx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opera.resx">
+      <DependentUpon>Opera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperaCB.resx">
+      <DependentUpon>OperaCB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ps Remote Play.resx">
+      <DependentUpon>Ps Remote Play.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Python.resx">
+      <DependentUpon>Python.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rufus.resx">
+      <DependentUpon>Rufus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shotcut.resx">
+      <DependentUpon>Shotcut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sky Go.resx">
+      <DependentUpon>Sky Go.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Smart Defrag.resx">
+      <DependentUpon>Smart Defrag.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Smart game Booster.resx">
+      <DependentUpon>Smart game Booster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Soft Launcher.resx">
+      <DependentUpon>Soft Launcher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Soft Optimizer.resx">
+      <DependentUpon>Soft Optimizer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Soft Usb Passwords.resx">
+      <DependentUpon>Soft Usb Passwords.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Steam.resx">
+      <DependentUpon>Steam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teamviewer.resx">
+      <DependentUpon>Teamviewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telegram.resx">
+      <DependentUpon>Telegram.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Texbbb.resx">
+      <DependentUpon>Texbbb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trading View.resx">
+      <DependentUpon>Trading View.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TunnelBear.resx">
+      <DependentUpon>TunnelBear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vera Crypt.resx">
+      <DependentUpon>Vera Crypt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vim.resx">
+      <DependentUpon>Vim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Virtualbox.resx">
+      <DependentUpon>Virtualbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual Studio.resx">
+      <DependentUpon>Visual Studio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vivaldi.resx">
+      <DependentUpon>Vivaldi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vlc.resx">
+      <DependentUpon>Vlc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vmware.resx">
+      <DependentUpon>Vmware.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual Studio Code.resx">
+      <DependentUpon>Visual Studio Code.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Obs Streamlabs.resx">
+      <DependentUpon>Obs Streamlabs.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Battle.Designer.net" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Senza-titolo %281%29.ico" />
+    <Content Include="Senza-titolo %282%29.ico" />
+    <Content Include="Senza-titolo %286%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
